@@ -1,0 +1,58 @@
+
+.cenik_container {
+    margin: 3rem 7vw;
+    margin-bottom: 6rem;
+}
+
+.cenik_cenik {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--size-3xl);
+}
+
+.cenik_dejavnost {
+    display: grid;
+    gap: var(--size-sm);
+}
+
+.cenik_item {
+    display: flex;
+}
+
+.cenik_line {
+    border-bottom: solid 1px black;
+    flex-grow: 1;
+    margin-bottom: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+@media (max-width: 1536px) {
+    .cenik_item{
+        font-size: var(--size-xl);
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .cenik_item{
+        font-size: var(--size-xl);
+    }
+}
+
+@media (max-width: 1024px) {
+    .cenik_item{
+        font-size: var(--size-base);
+    }
+}
+
+@media (max-width: 768px) {
+    .cenik_cenik{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 475px) {}

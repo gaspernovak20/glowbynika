@@ -1,0 +1,145 @@
+
+.storitve{
+	background-color: var(--clr-bez);
+	padding: var(--size-7xl) 7vw;
+}
+
+.storitve_btn{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: var(--size-base);
+	margin-top: 3rem;
+	width: 50%;
+}
+
+.storitve_btn_storitev {
+	color: var(--clr-bez-sec);
+	font-size: var(--size-2xl);
+	font-weight: 500;
+	border: 2px solid var(--clr-bez-sec);
+	border-radius: 5px;
+	padding: 0 var(--size-sm);
+	width: 100%;
+	height: var(--size-6xl);
+	background: transparent;
+}
+
+.storitve_btn_naroci{
+	color: var(--clr-bez-sec);
+	font-size: var(--size-2xl);
+	font-weight: 500;
+	border: 2px solid var(--clr-bez-sec);
+	border-radius: 5px;
+	padding: 0 var(--size-sm);
+	height: var(--size-6xl);
+	background: transparent;
+}
+
+.current-storitev{
+	color: var(--clr-bez);
+	background-color: var(--clr-bez-sec);
+} 	
+
+.storitve_okenca {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: var(--size-2xl);
+	margin-top: var(--size-2xl);
+}
+
+.storitve_obrvi{
+	display: grid;
+}
+
+.storitve_trepalnice{
+	display: none;
+}
+
+.storitve_licenje{
+	display: none;
+} 
+
+.storitve_okenca_item {
+	display: grid;
+	grid-template-rows: auto auto auto 1fr;
+	align-items: end;
+	gap: var(--size-2xl);
+}
+
+.storitev_img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.storitev_opis {
+	text-align: center;
+}
+
+#storitev_opis-vec1,#storitev_opis-vec2, #storitev_opis-vec3 {
+	display: none;
+}
+#storitev_opis-vec11,#storitev_opis-vec12, #storitev_opis-vec13 {
+	display: none;
+}
+#storitev_opis-vec21,#storitev_opis-vec22, #storitev_opis-vec23 {
+	display: none;
+}
+
+
+.storitve_vec-btn{
+	color: var(--clr-black);
+	background-color: transparent;
+	border: none;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.storitve_okenca_item_btn_naroci {
+	text-align: center;
+	
+}
+
+@media (max-width: 1536px) {
+	.storitve_btn_storitev ,.storitve_btn_naroci{
+		height: var(--size-5xl);
+		font-size: var(--size-2xl);
+	}
+}
+
+
+@media (max-width: 1280px) {
+
+	.storitve_btn_storitev ,.storitve_btn_naroci{
+		height: var(--size-5xl);
+		font-size: var(--size-xl);
+	}
+}
+
+@media (max-width: 1024px) {
+
+	.storitve_btn{
+		margin-top: var(--size-2xl);
+	}
+
+	.storitve_btn_storitev ,.storitve_btn_naroci{
+		height: 2.5rem;
+		font-size: var(--size-lg);
+	}
+}
+
+@media (max-width: 768px) {
+	.storitve_btn{
+		grid-template-columns: 1fr;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.storitve_okenca{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 475px) {}

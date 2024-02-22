@@ -1,0 +1,177 @@
+
+.uvod {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-height:  90vh;
+	width: 100%;
+}
+
+.uvod >*{
+	min-height: 0;
+	min-width: 0;
+}
+
+.uvod_nika {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.uvod_desna {
+	display: grid;
+	align-items: center;
+	padding-top: 6vh;
+	padding-left: 5vw;
+	margin-right: 7vw;
+}
+
+.uvod_container{
+	display: grid;
+	gap: var(--size-2xl);
+	width: 100%;
+	min-width: 0;
+	min-height: 0;
+}
+
+.uvod_container >*{
+	min-height: 0;
+	min-width: 0;
+}
+
+.uvod_opis {
+	font-weight: 300;
+}
+
+.uvod_opis_bold {
+	font-weight: 500;
+}
+
+.uvod_gumbi {
+	display: grid;
+	gap: 1.5rem;
+}
+
+.uvod_gumbi>*{
+	min-height: 0;
+	min-width: 0;
+}
+
+.uvod_storitve {
+	display: grid;
+	gap: 1.5rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.uvod_storitve>*{
+	min-height: 0;
+	min-width: 0;
+}
+
+.uvod_btn_storitev {
+	color: var(--clr-bez-sec);
+	font-size: 1.5rem;
+	font-weight: 500;
+	border: 2px solid var(--clr-bez-sec);
+	border-radius: 5px;
+	height: var(--size-6xl);
+	width: 100%;
+	flex-shrink: 0;
+	background: none;
+	cursor: pointer;
+}
+
+.uvod_btn_naroci {
+	color: var(--clr-bez);
+	font-size: 2rem;
+	font-weight: 500;
+	height: 4.75rem;
+	border-radius: 5px;
+	width: 100%;
+	border: none;
+	background: var(--clr-bez-sec);
+	flex-shrink: 0;
+}
+
+@media (max-width: 1536px) {
+	.uvod_btn_storitev{
+		height: var(--size-5xl);
+		font-size: var(--size-xl);
+	}
+
+	.uvod_btn_naroci{
+		height: var(--size-6xl);
+		font-size: var(--size-3xl);
+	}
+}
+
+
+@media (max-width: 1280px) {
+	.uvod_btn_storitev{
+		height: var(--size-5xl);
+		font-size: var(--size-xl);
+	}
+
+	.uvod_btn_naroci{
+		height: var(--size-6xl);
+		font-size: var(--size-2xl);
+	}
+}
+
+@media (max-width: 1024px) {
+
+	.uvod_storitve{
+		gap: var(--size-xl);
+	}
+
+	.uvod_container{
+		gap: var(--size-xl);
+	}
+
+	.uvod_btn_storitev{
+		height: 2.5rem;
+		font-size: var(--size-lg);
+	}
+
+	.uvod_btn_naroci{
+		height: var(--size-5xl);
+		font-size: var(--size-xl);
+	}
+}
+
+@media (max-width: 768px) {
+	.uvod{
+		grid-template-columns: 1fr;
+		max-height: none;
+		height: none;
+	}	
+
+	.uvod_nika{
+		width: 100vw;
+	}
+
+	.uvod_desna{
+		padding-top: var(--size-2xl);
+		padding-left: 7vw;
+		padding-right: 7vw;
+		margin: 0;
+		/* padding-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0; */
+	}
+
+	.uvod_container{
+		margin: 0;
+		width: 100%;
+		min-height: 0;
+		min-width: 0;
+	}	
+}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 475px) {
+	.uvod_storitve{
+		grid-template-columns: 1fr;
+	}
+}
