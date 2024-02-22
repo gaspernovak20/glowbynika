@@ -18,7 +18,7 @@ Visit our website to explore our full range of services and book your appointmen
 
 The stunning design of this website was created by Ivana Koron. Ivana's attention to detail and creativity have helped to bring the vision of Nika Kobol Beauty Studio to life online.
 
-For design inquiries or to get in touch with Ivana Koron, please contact her at [ivanakoron@gmail.com](mailto:ivanakoron@gmail.com).
+For design inquiries or to get in touch with Ivana Koron, please contact her at [koronivana@gmail.com](mailto:koronivana@gmail.com).
 
 ## Website Technologies
 
